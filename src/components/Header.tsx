@@ -1,18 +1,15 @@
-import './Header.css';
-import {
-  DynamicWidget,
-} from "@dynamic-labs/sdk-react-core";
+import "./Header.css";
+import { DynamicWidget } from "@dynamic-labs/sdk-react-core";
 
-import Navigation from './Navigation';
+import Navigation from "./Navigation";
 
 function Header() {
-
-  return (
-    <header>
-      <DynamicWidget />
-      <Navigation />
-    </header>
-  )
+	return (
+		<header>
+			<DynamicWidget />
+			<Navigation />
+		</header>
+	);
 }
 
 export default Header;
