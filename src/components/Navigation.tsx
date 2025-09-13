@@ -5,11 +5,11 @@ export default function Navigation() {
 	return (
 		<nav className="main-nav">
 			<Link to="/">Home</Link>
-			<Link to="/mint">NFT Minting Demo</Link>
-			<Link to="/chains">Supported Chains Demo</Link>
-			<Link to="/aa">Account Abstraction Demo</Link>
-			<Link to="/security">Security Demo</Link>
-			<Link to="/send">Sending Money Demo</Link>
+			<Link to="/mint">NFT Minting</Link>
+			<Link to="/chains">Multi-Chain</Link>
+			<Link to="/aa">Account Abstraction</Link>
+			<Link to="/security">Security</Link>
+			<Link to="/send">Sending Funds</Link>
 		</nav>
 	);
 }
