@@ -1,2 +1,3 @@
 # dynamic-demo
-Demo App highlighted key features of the Dynamic SDK
+
+Demo App highlighting key features of the Dynamic SDK

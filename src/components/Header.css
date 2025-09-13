@@ -1,0 +1,14 @@
+
+header {
+  position: fixed;      /* stays at the top when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;        /* keep it above main content */
+  background: #fff;     /* or your brand color */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
